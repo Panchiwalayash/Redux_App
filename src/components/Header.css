@@ -1,0 +1,31 @@
+.header-nav {
+  position: sticky;
+  box-shadow: 0px 10px 20px #ccc;
+  margin-bottom: 10px;
+}
+.header-ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-h2 {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.logout{
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(39, 85, 212);
+  font-weight: bold;
+  transition: all ease .5s;
+}
+.logout:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
